@@ -11,7 +11,7 @@ while True:
     user_input = input("do you want to add a new To-Do item?(y or no or exit):  ")
     user_input = boolconv(user_input)
     if user_input == True:
-        file = open("to-do.txt","a",encoding="utf-8")
+        file = open("to_do.txt","a",encoding="utf-8")
         content = input("Write your txt: \n")
         file.write(f"{content}\n")
         file.close()
